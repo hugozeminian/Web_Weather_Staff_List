@@ -1,0 +1,185 @@
+<!--
+ * @name: Assignement 2
+ * @Course Code: SODV1201 - Introduction to Web Programming
+ * @class: Software Development Diploma program
+ * @author: Hugo Vinicius Zeminian Bueno Camargo  
+ * @id: 440258
+ * @e-mail: h.vinicius258@mybvc.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn Activity" />
+    <meta name="keywords" content="hugo,camargo,developer,bvc" />
+    <meta name="author" content="Hugo Camargo" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/ico-hc.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/dd5f4a2a4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Assignment 2</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="menu" id="index">
+        <p class="menu-logo-mobile">Hugo Camargo</p>
+
+        <div class="menu-flex container margin10">
+          <img class="menu-logo" id="menu-logo" src="" alt="Logo" />
+
+          <ul class="menu-links-flex" id="menu-links-flex">
+            <li><a href="" id="link-home"></a></li>
+            <li><a href="" id="link-weather"></a></li>
+            <li><a href="" id="link-staff-information"></a></li>
+          </ul>
+        </div>
+        <!--menu-flex container-->
+
+        <a href="javascript:void(0);" class="icon" onclick="viewMobileMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      <!--menu container-->
+    </header>
+
+    <main class="container">
+      <section id="introduction">
+        <div class="wrap-title">
+          <img src="./assets/img/hc-sign.png" alt="" />
+          <div>
+            <h2>SODV1201 - Introduction to Web Programming</h2>
+            <h2>Assignment 2</h2>
+          </div>
+        </div>
+        <!--wrap-title-->
+      </section>
+      <!--introduction-->
+
+      <section class="intro-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Activities Checklist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Submission method & format</td>
+            </tr>
+            <tr>
+              <td>
+                Author identification, course code, assignment title, date in
+                web page
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Correctly displays current local weather using DOM elements
+              </td>
+            </tr>
+            <tr>
+              <td>Correctly executes an API call to a free weather provider</td>
+            </tr>
+            <tr>
+              <td>Using different programming concepts covered in class</td>
+            </tr>
+            <tr>
+              <td>
+                Code is readable and well-organized with adequate whitespace
+              </td>
+            </tr>
+            <tr>
+              <td>Code has detailed inline explanations (comments)</td>
+            </tr>
+            <tr>
+              <td>
+                Working logic to manipulate staff dataset using modern
+                programming syntax
+              </td>
+            </tr>
+            <tr>
+              <td>Working API to add a new dataset to your staff dataset</td>
+            </tr>
+            <tr>
+              <td>One to one depending on what you have submitted</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!--intro-table-->
+
+      <section class="intro-q1">
+        <h3>Q1. Get The Weather Using An API</h3>
+        <p>
+          In this question, we ask you create a single web page that is
+          completely self-contained (i.e. does not load any external JavaScript
+          files) and retrieve the current local weather using a free online
+          service. There are several free weather service providers available;
+          it's up to you to find one, study its API, figure out what endpoint to
+          use, and write the JavaScript code to retrieve the current weather for
+          Calgary. You will need to figure out how to decode the response from
+          the API, which will most likely be a JSON-encoded object. You should
+          retrieve at least the temperature and a description of the weather
+          (e.g. partially cloudy, sunny, snowing, etc). Your web page should
+          display this information, but does not need to be styled at all (i.e.
+          don't waste time making it pretty, just display the weather by
+          updating HTML DOM elements). Please make sure your HTML page validates
+          through W3C and do not use document.write at all!
+        </p>
+      </section>
+      <!--intro-q1-->
+
+      <section class="intro-q2">
+        <h3>Q2.</h3>
+        <ul>
+          <li>- Setup a node-based web server</li>
+          <li>
+            - Create different API that allow you to search staff information
+            using staff name, id, salary.
+          </li>
+          <li>
+            - Write a function that handle the API response and display the data
+            for the user
+          </li>
+          <li>
+            - Create an API that register new staff to your existing dataset or
+            to a new file as backend storage. Once new record is sent
+            confirmation should be sent back from the server
+          </li>
+          <li>
+            - Create an API that will serve as default if wrong API request come
+            to your web server.
+          </li>
+          <li>
+            - Use promise, async/await , import and export in this project
+          </li>
+        </ul>
+      </section>
+      <!--intro-q2-->
+    </main>
+    <!--container-->
+
+    <footer>
+      <div class="copyright-footer">
+        <p id="footer-name"></p>
+        <p id="footer-copyright"></p>
+      </div>
+      <!--copyright-footer-->
+    </footer>
+
+    <!--scripts-->
+    <script src="./assets/js/genaral_conf.js"></script>
+    <!--scripts-->
+  </body>
+</html>

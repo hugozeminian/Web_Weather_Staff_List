@@ -1,0 +1,212 @@
+<!--
+ * @name: Assignement 2
+ * @Course Code: SODV1201 - Introduction to Web Programming
+ * @class: Software Development Diploma program
+ * @author: Hugo Vinicius Zeminian Bueno Camargo  
+ * @id: 440258
+ * @e-mail: h.vinicius258@mybvc.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn Activity" />
+    <meta name="keywords" content="hugo,camargo,developer,bvc" />
+    <meta name="author" content="Hugo Camargo" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/ico-hc.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/dd5f4a2a4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Assignment 2</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="menu" id="pages">
+        <p class="menu-logo-mobile">Hugo Camargo</p>
+
+        <div class="menu-flex container margin10">
+          <img class="menu-logo" id="menu-logo" src="" alt="Logo" />
+
+          <ul class="menu-links-flex" id="menu-links-flex">
+            <li><a href="" id="link-home"></a></li>
+            <li><a href="" id="link-weather"></a></li>
+            <li><a href="" id="link-staff-information"></a></li>
+          </ul>
+        </div>
+        <!--menu-flex container-->
+
+        <a href="javascript:void(0);" class="icon" onclick="viewMobileMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      <!--menu container-->
+    </header>
+
+    <main class="container">
+      <section id="introduction">
+        <div class="wrap-title">
+          <div class="content-container">
+            <h2>STAFF API - SEARCH INFORMATION</h2>
+            <p>Observation: Run node server.js at server folder to use the API.</p>
+
+            <input
+              placeholder="First Name"
+              class="inputData"
+              type="text"
+              id="staff-first-name"
+            />
+            <button class="button" type="button" id="button-search-staff-name">
+              <i class="fas fa-search"></i> Search</button
+            ><br />
+
+            <input
+              placeholder="Staff Id"
+              class="inputData"
+              type="text"
+              id="staff-id"
+            />
+            <button class="button" type="button" id="button-search-staff-id">
+              <i class="fas fa-search"></i> Search</button
+            ><br />
+
+            <input
+              placeholder="Salary"
+              class="inputData"
+              type="text"
+              id="staff-salary"
+            />
+            <button
+              class="button"
+              type="button"
+              id="button-search-staff-salary"
+            >
+              <i class="fas fa-search"></i> Search</button
+            ><br />
+
+            <button class="button" id="button-show-modal-register">
+              Register
+            </button>
+
+            <button
+              class="button"
+              type="button"
+              id="button-reload"
+              onclick="refreshPage()"
+            >
+              Reload
+            </button>
+
+            <div id="card-staff-container"></div>
+
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <h2>NEW USER REGISTRATION</h2>
+
+                <form id="staff-register-form">
+                  <input
+                    placeholder="First Name"
+                    class="inputData"
+                    type="text"
+                    id="staff-register-first-name"
+                    required
+                  />
+
+                  <input
+                    placeholder="Last Name"
+                    class="inputData"
+                    type="text"
+                    id="staff-register-last-name"
+                    required
+                  />
+
+                  <input
+                    placeholder="Preferred FullName"
+                    class="inputData"
+                    type="text"
+                    id="staff-register-preferred-fullname"
+                    required
+                  />
+
+                  <input
+                    placeholder="Job Title Name"
+                    class="inputData"
+                    type="text"
+                    id="staff-register-job-title"
+                    required
+                  />
+
+                  <input
+                    placeholder="Salary"
+                    class="inputData"
+                    type="Number"
+                    id="staff-register-salary"
+                    required
+                  />
+
+                  <input
+                    placeholder="Email Address"
+                    class="inputData"
+                    type="email"
+                    id="staff-register-email"
+                    required
+                  />
+
+                  <input
+                    placeholder="Phone Number"
+                    class="inputData"
+                    type="number"
+                    id="staff-register-phone"
+                    required
+                    pattern="^\d{10}$"
+                  />
+
+                  <input
+                    placeholder="Region"
+                    class="inputData"
+                    type="text"
+                    id="staff-register-region"
+                    required
+                  />
+                  <button class="button" id="button-register-staff">
+                    Submit
+                  </button>
+                  <button class="button" id="button-close">Close</button>
+                </form>
+              </div>
+              <!-- Modal content -->
+            </div>
+            <!-- Modal container -->
+          </div>
+          <!--content-container-->
+        </div>
+        <!--wrap-title-->
+      </section>
+      <!--introduction-->
+    </main>
+    <!--container-->
+
+    <footer>
+      <div class="copyright-footer">
+        <p id="footer-name"></p>
+        <p id="footer-copyright"></p>
+      </div>
+      <!--copyright-footer-->
+    </footer>
+
+    <!--scripts-->
+    <script src="../js/genaral_conf.js"></script>
+    <script src="../js/staffs.js"></script>
+    <!--scripts-->
+  </body>
+</html>

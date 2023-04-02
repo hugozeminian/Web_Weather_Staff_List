@@ -1,0 +1,124 @@
+{
+  "staffs": [
+    {
+      "userId": "u1",
+      "jobTitleName": "Developer",
+      "firstName": "King",
+      "lastName": "Dav",
+      "preferredFullName": "Dav King",
+      "staffID": "E1",
+      "region": "CA",
+      "phoneNumber": "408-345-2212",
+      "emailAddress": "dav@gmail.com",
+      "salary": 80000
+    },
+    {
+      "userId": "u2",
+      "jobTitleName": "Developer",
+      "firstName": "Sara",
+      "lastName": "Eyu",
+      "preferredFullName": "Sara Eyu",
+      "staffID": "E2",
+      "region": "CA",
+      "phoneNumber": "408-778-3639",
+      "emailAddress": "sara@gmail.com",
+      "salary": 90000
+    },
+    {
+      "userId": "u3",
+      "jobTitleName": "Program analyist",
+      "firstName": "Semere",
+      "lastName": "Tomas",
+      "preferredFullName": "Semere Tomas",
+      "staffID": "E3",
+      "region": "CA",
+      "phoneNumber": "408-342-2324",
+      "emailAddress": "semere@gmail.com",
+      "salary": 75000
+    },
+    {
+      "userId": "u4",
+      "jobTitleName": "Network analyist",
+      "firstName": "Hellen",
+      "lastName": "Daniel",
+      "preferredFullName": "Hellen Dnaiel",
+      "staffID": "E4",
+      "region": "AB",
+      "phoneNumber": "408-342-9004",
+      "emailAddress": "hellen@gmail.com",
+      "salary": 85000
+    },
+    {
+      "userId": "u5",
+      "jobTitleName": "Office Manager",
+      "firstName": "Eski",
+      "lastName": "Mulegeta",
+      "preferredFullName": "Eski Mulegeta",
+      "staffID": "E3",
+      "region": "CA",
+      "phoneNumber": "403-322-2394",
+      "emailAddress": "eski@gmail.com",
+      "salary": 65000
+    },
+    {
+      "userId": "u6",
+      "jobTitleName": "Marketing Manager",
+      "firstName": "Amanda",
+      "lastName": "Smith",
+      "preferredFullName": "Amanda Smith",
+      "staffID": "E6",
+      "region": "NY",
+      "phoneNumber": "212-345-1234",
+      "emailAddress": "amanda.smith@gmail.com",
+      "salary": 100000
+    },
+    {
+      "userId": "u7",
+      "jobTitleName": "Sales Representative",
+      "firstName": "John",
+      "lastName": "Johnson",
+      "preferredFullName": "John Johnson",
+      "staffID": "E7",
+      "region": "NY",
+      "phoneNumber": "212-345-5678",
+      "emailAddress": "john.johnson@gmail.com",
+      "salary": 75000
+    },
+    {
+      "userId": "u8",
+      "jobTitleName": "Graphic Designer",
+      "firstName": "Sara",
+      "lastName": "Davis",
+      "preferredFullName": "Sara Davis",
+      "staffID": "E8",
+      "region": "CA",
+      "phoneNumber": "408-345-1234",
+      "emailAddress": "emily.davis@gmail.com",
+      "salary": 85000
+    },
+    {
+      "userId": "u9",
+      "jobTitleName": "Software Engineer",
+      "firstName": "Ryan",
+      "lastName": "Lee",
+      "preferredFullName": "Ryan Lee",
+      "staffID": "E9",
+      "region": "CA",
+      "phoneNumber": "408-777-8888",
+      "emailAddress": "ryan.lee@gmail.com",
+      "salary": 95000
+    },
+    {
+      "userId": "u10",
+      "jobTitleName": "Project Manager",
+      "firstName": "Karen",
+      "lastName": "Wang",
+      "preferredFullName": "Karen Wang",
+      "staffID": "E10",
+      "region": "TX",
+      "phoneNumber": "512-555-1212",
+      "emailAddress": "karen.wang@gmail.com",
+      "salary": 110000
+    }
+  ]
+}

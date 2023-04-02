@@ -1,0 +1,122 @@
+<!--
+ * @name: Assignement 2
+ * @Course Code: SODV1201 - Introduction to Web Programming
+ * @class: Software Development Diploma program
+ * @author: Hugo Vinicius Zeminian Bueno Camargo  
+ * @id: 440258
+ * @e-mail: h.vinicius258@mybvc.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn Activity" />
+    <meta name="keywords" content="hugo,camargo,developer,bvc" />
+    <meta name="author" content="Hugo Camargo" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/ico-hc.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/dd5f4a2a4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Assignment 2</title>
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="menu" id="pages">
+        <p class="menu-logo-mobile">Hugo Camargo</p>
+
+        <div class="menu-flex container margin10">
+          <img class="menu-logo" id="menu-logo" src="" alt="Logo" />
+
+          <ul class="menu-links-flex" id="menu-links-flex">
+            <li><a href="" id="link-home"></a></li>
+            <li><a href="" id="link-weather"></a></li>
+            <li><a href="" id="link-staff-information"></a></li>
+          </ul>
+        </div>
+        <!--menu-flex container-->
+
+        <a href="javascript:void(0);" class="icon" onclick="viewMobileMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      <!--menu container-->
+    </header>
+
+    <main class="container">
+      <section id="introduction">
+        <div class="wrap-title">
+          <div>
+            <h2>WEATHER & TEMPERATURE</h2>
+          </div>
+        </div>
+        <!--wrap-title-->
+      </section>
+      <!--introduction-->
+
+      <div class="container-fluid">
+        <div class="card">
+          <div class="card-body">
+            <div class="city">City</div>
+            <div class="date">Day</div>
+            <div class="container-img">
+              <img src="../img/unknown.png" alt="weather image" />
+            </div>
+            <!--container-img-->
+            <div class="container-temp">
+              <div>Temp</div>
+              <span>ºc</span>
+            </div>
+            <!--container-temp-->
+            <div class="weather">Weather</div>
+            <div class="hi-low">min / max</div>
+          </div>
+          <!--card-body-->
+
+          <div class="card-footer">
+            <div class="input-group">
+              <input
+                type="text"
+                class="inputData"
+                placeholder="City name"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button class="button" type="button" id="button-addon2">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+            <!--input-group-->
+          </div>
+          <!--card-footer-->
+        </div>
+        <!--card-->
+      </div>
+      <!--container-fluid-->
+    </main>
+    <!--container-->
+
+    <footer>
+      <div class="copyright-footer">
+        <p id="footer-name"></p>
+        <p id="footer-copyright"></p>
+      </div>
+      <!--copyright-footer-->
+    </footer>
+
+    <!--scripts-->
+    <script src="../js/genaral_conf.js"></script>
+    <script src="../js/weather.js"></script>
+    <!--scripts-->
+  </body>
+</html>
